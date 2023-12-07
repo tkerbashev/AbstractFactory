@@ -1,5 +1,7 @@
 ﻿using AbstractFactory;
 
+Console.WriteLine( "Abstract Factory Creational Design Pattern example\n" );
+
 Console.Title = "Abstract Factory";
 
 var morningTeaFactory = new TeaFactory();
